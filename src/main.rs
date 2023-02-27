@@ -1,5 +1,5 @@
 async fn say_world() {
-    println!("world");
+    println!("build by cross docker!");
 }
 
 #[tokio::main]
