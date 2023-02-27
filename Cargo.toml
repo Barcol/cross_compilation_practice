@@ -7,4 +7,6 @@ edition = "2021"
 
 [dependencies]
 tokio = { version = "1", features = ["rt", "macros", "rt-multi-thread", "signal", "sync", "parking_lot", "process"] }
+uuid = { version = "1", default-features = false, features = ["fast-rng", "v4"] }
+sysinfo = { version = "0.27" }
 
